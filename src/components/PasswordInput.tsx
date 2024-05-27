@@ -28,7 +28,7 @@ const PasswordInput = ({ register, errors }: Props) => {
       <InputGroup>
         <Input
           border={"1px solid"}
-          placeholder="Ваш пароль"
+          placeholder="Введите пароль"
           borderColor={errors.password ? "red.300" : "gray.300"}
           borderRadius={0}
           type={isVisible ? "text" : "password"}

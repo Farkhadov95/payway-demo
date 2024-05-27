@@ -15,7 +15,7 @@ const EmailInput = ({ register, errors }: Props) => {
       <Input
         type="email"
         border={"1px solid"}
-        placeholder="example@gmail.com"
+        placeholder="Email или номер телефона"
         borderColor={errors.login ? "red.300" : "gray.300"}
         borderRadius={0}
         {...register("login", {
