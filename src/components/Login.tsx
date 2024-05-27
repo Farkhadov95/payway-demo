@@ -4,7 +4,7 @@ import { useState } from "react";
 import { md5 } from "js-md5";
 import EmailInput from "./EmailInput";
 import PasswordInput from "./PasswordInput";
-import logo from "../../public/logo.svg";
+import logo from "/logo.svg";
 import Navbar from "./Navbar";
 import UserError from "./UserError";
 import { User } from "../types/user";
